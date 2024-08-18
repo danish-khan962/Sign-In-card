@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 30, 30);
+}
+
+.card {
+    background-color: black;
+    min-height: 30rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 15px;
+}
+
+.card>p {
+    color: aliceblue;
+}
+
+.OR, .forgotPasswd > a, .footer,
+.footpara1, .footpara2{
+    color: aliceblue;
+}
+.footpara2 span{
+    color: blue;
+}
+#SignIn{
+    margin-left: -170px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#form1{
+    margin-top: 16px;
+}
+.button1, .OR, .button2, .forgotPasswd{
+    margin-top: 15px;
+}
+.OR, .forgotPasswd > a{
+    text-align: center;
+    text-decoration: none;
+}
+.footer > label, input{
+    margin-top: 15px;
+}
+#form1 > input, #form2 > input{
+    width: 18rem;
+    border-radius: 5px;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(42, 42, 42);
+    color: aliceblue;
+}
+.button1 > button, .button2 > button{
+    width: 18rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: none;
+}
+.footer{
+    margin-top: 19px;
+    margin-left: -160px;
+}
+.footpara1, .footpara2{
+    margin-top: 19px
+}
+.footpara1{
+    margin-left: -126px;
+}
+.footpara2{
+    /* text-align:justify; */
+    margin-left: -8px;
+    font-size: 12px;
+}
+/*Decorations*/
+.button1 > button{
+    background-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.button1 > button:hover{
+    background-color: rgb(199, 28, 28);
+}
+.OR{
+    color: rgb(168, 167, 167);
+}
+.button2> button{
+    background-color: rgba(218, 214, 214, 0.164);
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.button2 > button:hover{
+    background-color: rgb(44, 44, 44);
+}
+::placeholder{
+    color: rgb(139, 139, 139);
+    font-size: 14px;
+}
+.forgotPasswd > a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.footpara1 p{
+    font-size: 14px;
+}
+.footpara1 a{
+    text-decoration: none;
+}
+.footpara1 a>span:hover{
+    text-decoration: underline;
+}
+.footpara2{
+    color: rgb(172, 165, 165);
+}
+.footpara2 a{
+    text-decoration: none;
+}
+.footpara2 a>span{
+    color: rgb(0, 128, 255);
+}
+.footpara2 a>span:hover{
+    text-decoration: underline;
+}
